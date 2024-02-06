@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35e8ab4e-8a02-45f6-a068-608ab90a55d1" name="Changes" comment="127:Create save Post Features Entity Added 04-01-2024.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/payload/CommentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="35e8ab4e-8a02-45f6-a068-608ab90a55d1" name="Changes" comment="127:Create save Post Features Entity Added 04-01-2024.added comment Entity">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/payload/SignUpDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/Myblog11Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/Myblog11Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/payload/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/payload/CommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/impl/CommentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myblog/moblog11/service/impl/PostServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myblog/moblog11/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myblog/moblog11/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -71,11 +78,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Intellej IDEA/myblog/myblog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Intellej IDEA/myblog12/myblog12&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -131,6 +138,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
         <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
         <option value="jdk-17.0.9-jbrsdk-17.0.9-f644763e9732-26399851" />
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
@@ -186,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705203719551</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="127:Create save Post Features Entity Added 04-01-2024.added comment Entity">
+      <option name="closed" value="true" />
+      <created>1706371421781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706371421782</updated>
+    </task>
+    <task id="LOCAL-00007" summary="127:Create save Post Features Entity Added 04-01-2024.added comment Entity">
+      <option name="closed" value="true" />
+      <created>1706371568855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706371568855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +229,7 @@
     <MESSAGE value="127:Create save Post Features Entity Added" />
     <MESSAGE value="127:Create save Post Features Entity Added 04-01-2024" />
     <MESSAGE value="127:Create save Post Features Entity Added 04-01-2024." />
-    <option name="LAST_COMMIT_MESSAGE" value="127:Create save Post Features Entity Added 04-01-2024." />
+    <MESSAGE value="127:Create save Post Features Entity Added 04-01-2024.added comment Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="127:Create save Post Features Entity Added 04-01-2024.added comment Entity" />
   </component>
 </project>

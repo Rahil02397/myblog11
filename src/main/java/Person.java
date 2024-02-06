@@ -6,8 +6,6 @@ import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static org.hibernate.internal.util.collections.ArrayHelper.forEach;
-
 
 public class Person {
 

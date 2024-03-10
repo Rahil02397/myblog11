@@ -56,7 +56,7 @@ public class PostServiceImpl implements PostService {
         List<Post> posts = pagePost.getContent();
         List<PostDto> dtos = posts.stream().map(post -> mapToDto(post)).collect(Collectors.toList());
         return dtos;
-    }
+    }   
 
     PostDto mapToDto(Post post){
         PostDto dto = modelMapper.map(post, PostDto.class);
